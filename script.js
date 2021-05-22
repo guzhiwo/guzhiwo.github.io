@@ -316,6 +316,7 @@ function cleverMove() {
       
       if (CLEVER.y + 50 >= CAT.y && CLEVER.x >= CAT.x + 50 && CLEVER.x + 62 < CAT.x + CAT.width) {
         SCORE.win += 10;
+        SCORE.loss--;
         CLEVER.x = -71;
         
         CAT.player.src = "images/cat3.png";
