@@ -248,7 +248,7 @@ function _onDocumentKeyDown(event) { // нажатие клавиш
     BUTTON.play();
     MENU.main.src = "images/main_menu.png";
     MENU.run = true;
-    CAT.x = 600;
+    CAT.x = 905;
     GAME.bool = false;
     GAME.win = false;
     GAME.loss = false;
