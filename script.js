@@ -238,7 +238,7 @@ function _onCanvasMouseClick(event) { // клик
   }
   if ((!GAME.bool && !GAME.loss && !GAME.win) && ( 182 < x && x < 415 && 438 < y && y < 504)) {
     BUTTON.play();
-    MENU.main.src = MENU.oper.src;
+    MENU.main.src = MENU.about.src;
     MENU.run = false;
   }
 }
