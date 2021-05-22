@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+canvas{
+  margin-top: 30px;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-flow: row;
+}
+
+.menu {
+  margin: 20px;
+  font: 40px 'Goblin One';
+}
+
+.history, .start {
+  width: 200px ;
+  height: 70px;
+  background-color: #5A6676;
+  font: 50px 'Caveat', cursive;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 60px;
+}
