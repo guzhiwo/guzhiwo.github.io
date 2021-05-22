@@ -397,8 +397,6 @@ function bumps() {
         setTimeout(function(){
           CAT.player.src = CAT.player_dub.src;
         }, 300)
-
-
         SCORE.loss++; 
       }
     
