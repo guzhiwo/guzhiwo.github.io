@@ -99,11 +99,10 @@ function draw() { // отрисовка
     context.font = '20px Verdana';
     context.fillStyle = '#1A1C29';
     context.fillStyle = 'white';
-    context.fillText(SCORE.loss, 20, 580);
-    context.fillText("/5", 50, 580);
-    context.drawImage(BUMPS.bump, 100, 550, 30, 40); 
-    context.fillText(Math.floor(SCORE.win), 750, 580);
-    context.fillText("/410", 795, 580);
+    context.fillText(SCORE.loss + "/5", 20, 580);
+    context.drawImage(BUMPS.bump, 70, 550, 30, 40); 
+    context.fillText(Math.floor(SCORE.win) + "/410", 750, 580);
+    context.drawImage(CLEVER.image, 840, 550, 40, 40);
   } 
 
   if (SCORE.loss >= 5) { // проигрыш
